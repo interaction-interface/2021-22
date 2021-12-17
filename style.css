@@ -57,19 +57,19 @@ a:hover {
 }
 
 .navigation a:hover {
-    color: #ff4400;
+    color: #39FF14
 
     transition: 0.3s ease;
 }
 
 ::-moz-selection {
     color: black; 
-    background: #ff4400;
+    background: #39FF14
 }
 
 ::selection {
     color: black; 
-    background: #ff4400;
+    background: #39FF14
 }
 
 
@@ -878,7 +878,7 @@ Indicator
 }
 
 .indicator__overlay a:hover{
-    color:#ff4400;
+    color:#39FF14
     transition:0.5s;
 }
 /* XS */
@@ -1229,7 +1229,7 @@ main {
 .meta__line-fill {
     height: 100%;
     width: 30%;
-    background-color: #ff4400;
+    background-color: #39FF14
 }
 
 .meta__daysleft {
@@ -1290,7 +1290,7 @@ main {
     box-sizing: border-box;
 
     opacity: 0;
-    background-color: #ff4400;
+    background-color: #39FF14
     mix-blend-mode: hard-light;
     -webkit-mix-blend-mode: ;
 
@@ -1334,7 +1334,7 @@ main {
 }
 
 .selection__item--small:hover {
-    border: solid 2px #ff4400;
+    border: solid 2px #39FF14
     box-sizing: border-box;
 }
 
@@ -1536,7 +1536,7 @@ Updates
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: #ff4400;
+    background-color: #39FF14
     mix-blend-mode: hard-light;
     -webkit-mix-blend-mode: hard-light;
     top:0;
