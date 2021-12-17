@@ -819,7 +819,7 @@ Indicator
     width: 2px;
     min-height: 12px;
     top: 0;
-    background-color: #FF4400;
+    background-color:#39FF14;
 }
 
 @keyframes fadein--right {
@@ -1064,7 +1064,7 @@ header {
 
 .intro, .names {
     position: relative;
-    color: #FF4400;
+    color:#39FF14;
 }
 
 .intro p, .names p {
