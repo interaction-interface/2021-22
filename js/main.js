@@ -6,7 +6,26 @@ jQuery(document).ready(function(){
         show(".profile", ".profile div");}
     show(".intro", ".intro p");
     show(".names", ".names p");
-    
+
+    /* Randomise function adapted from here: https://stackoverflow.com/questions/18256139/random-li-list-with-jquery-before-page-get-loaded */
+
+    (function($) {
+        $.fn.randomise = function(childElem) {
+            return this.each(function() {
+                var $this = $(this);
+                var elems = $this.children(childElem);
+                elems.sort(function() { return (Math.round(Math.random())-0.5); });  
+                $this.detach(childElem);  
+                for(var i=0; i < elems.length; i++)
+                    $this.append(elems[i]);      
+            });    
+        }
+    })(jQuery);
+
+    function shuffle() {
+        $(".names").randomise(".e-names");
+    }
+    shuffle();
 });
 
 jQuery(document).resize(function(){
