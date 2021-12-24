@@ -45,6 +45,7 @@ body {
 
 iframe {
     margin-bottom: 12px;
+    overflow: hidden;
 }
 
 a {
@@ -1121,11 +1122,27 @@ header {
 }
 
 .names p:nth-child(6) {
-    animation-delay: 1;
+    animation-delay: 1s;
 }
 
 .names p:nth-child(7) {
     animation-delay: 1.2s;
+}
+
+.names p:nth-child(8) {
+    animation-delay: 1.4s;
+}
+
+.names p:nth-child(9) {
+    animation-delay: 1.6s;
+}
+
+.names p:nth-child(10) {
+    animation-delay: 1.8s;
+}
+
+.names p:nth-child(n+10) {
+    animation-delay: 2s;
 }
 
 @keyframes fadein {
